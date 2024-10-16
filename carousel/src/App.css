@@ -1,19 +1,28 @@
 
-button{
-  background-color: transparent;
-  border: none;
-  outline: none;
-  font-size: 24px;
-  margin: 4px 2px;
-  cursor: pointer;
- 
+
+.con{
+  position: relative;
 }
-.on{
-  color: gold;
-}
-.off{
-  color: #ccc;
+.l{
+  position: absolute;
+  top: 50%;
+  background: transparent;
+  color: yellow;
   
+}
+
+.r{
+  position: absolute;
+  right: 15%;
+  top: 50%;
+  background: transparent;
+  color: yellow;
+}
+
+img{
+  width: 70%;
+  height: 100%;
+ 
 }
 
 
@@ -61,5 +70,3 @@ button{
 .read-the-docs {
   color: #888;
 }
-
-

@@ -1,10 +1,12 @@
 import { useState } from 'react'
-import StarComp from './StarComp'
+
 import './App.css'
 
 function App() {
   const [rating , setRating] = useState(0)
   const [hover , setHover] = useState(0)
+
+  console.log(rating,hover)
 
   return (
    <div className='App'>
