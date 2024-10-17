@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { useState,useRef } from "react"
 
 const Otp = ({otpl=5}) => {
@@ -8,6 +9,9 @@ const Otp = ({otpl=5}) => {
    console.log(otp)
    const ref = useRef([])
    console.log('ref data',ref)
+   useEffect(()=>{
+         ref.current[0].focus()
+   },[])
    
    
   return (
